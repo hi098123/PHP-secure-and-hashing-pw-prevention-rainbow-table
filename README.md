@@ -4,6 +4,11 @@
 just
 include './secure.php';
 
+easy adjust
+	
+	include './secure.php';
+	DelSpecialChar();
+
 function SecReq($str, $maxlentgh=200)
 
 	use: SecReq($str);			//id,pw,search
@@ -37,7 +42,9 @@ function HashPw($id,$pw)
 	(en) Salt the id in the hashing and use the password length to reduce the damage of the database leak and the source leak.
 		This makes it impossible for the algorithm to guess the password even if a rainbow table occurs
 
-Before 
+
+Before
 ![before-Acunetix](https://github.com/hi098123/PHP-secure/blob/master/normal.png)
-After 
+
+After
 ![after-Acunetix](https://github.com/hi098123/PHP-secure/blob/master/secure.png)
