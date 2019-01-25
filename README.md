@@ -44,11 +44,10 @@ function HashPw($id,$pw)
 
 
 index
-
 ![index.php](https://github.com/hi098123/PHP-secure/blob/master/index.png)
 
-Before
-![before-Acunetix](https://github.com/hi098123/PHP-secure/blob/master/normal.png)
+normal
+![normal-Acunetix](https://github.com/hi098123/PHP-secure/blob/master/normal.png)
 
-After
-![after-Acunetix](https://github.com/hi098123/PHP-secure/blob/master/secure.png)
+secure
+![secure-Acunetix](https://github.com/hi098123/PHP-secure/blob/master/secure.png)
