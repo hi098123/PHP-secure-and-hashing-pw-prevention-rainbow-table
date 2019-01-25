@@ -24,9 +24,11 @@ function DelSpecialChar($Maxrequest=10)
 
 
 function HashPw($id,$pw)
+	
 	sha3 is supports upper than PHP 7.1.0
 	you can check version phpversion();
 	and lower than 7.1 you can use sha2 or https://php.net/manual/en/function.hash-algos.php
+
 
 	use: HashPw($id,$pw);
 		if( $dbpw == HashPw($id,$pw) ){ Your PW is right }
