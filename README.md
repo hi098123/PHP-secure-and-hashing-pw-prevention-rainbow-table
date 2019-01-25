@@ -42,6 +42,8 @@ function HashPw($id,$pw)
 	(en) Salt the id in the hashing and use the password length to reduce the damage of the database leak and the source leak.
 		This makes it impossible for the algorithm to guess the password even if a rainbow table occurs
 
+index
+![index.php](https://github.com/hi098123/PHP-secure/blob/master/index.png)
 
 Before
 ![before-Acunetix](https://github.com/hi098123/PHP-secure/blob/master/normal.png)
