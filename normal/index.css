@@ -1,0 +1,6 @@
+.idpw {display: inline-block;}
+.idpw input{display: block;margin-bottom: 8px;background-color: #fff;border: 1px solid #999;width: 135px;}
+
+.login{display: inline-block;border: 2px solid #888;padding: 8px 10px;border-radius: 4px;width: 210px;}
+#lbtn{cursor: pointer; font-size: 16px;border: 1px solid #4184f6;padding: 13px 10px;border-radius: 5px;background-color: #4184f6; color: #fff; margin-left: 5px;}
+#lbtn:hover{border: 1px solid #6899ec;background-color: #6899ec;}
