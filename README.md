@@ -2,16 +2,18 @@
 
 #how can use?
 just
-#include './secure.php';
+include './secure.php';
 
-#function SecReq($str, $maxlentgh=200)
+function SecReq($str, $maxlentgh=200)
+
 	use: SecReq($str);			//id,pw,search
 		or SecReq($str,500);	//form
 		or SecReq($str,10000);	//board
 	(ko) 해당 $str 대해 특수 문자를 제거합니다.
 	(en) certain $str del special char
 
-#function DelSpecialChar($Maxrequest=10)
+function DelSpecialChar($Maxrequest=10)
+
 	use: DelSpecialChar(); or DelSpecialChar(20);
 	(ko) 모든 $_REQUEST 대해 보안위험을 제거합니다.
 		받아야 되는 정보가 많으면, $Maxrequest를 올려줘야하고 DelSpecialChar(20);
@@ -21,7 +23,7 @@ just
 		Special characters can be mixed in the information you do not need, but they are easily applied to all responses.
 
 
-#function HashPw($id,$pw)
+function HashPw($id,$pw)
 	sha3 is supports upper than PHP 7.1.0
 	you can check version phpversion();
 	and lower than 7.1 you can use sha2 or https://php.net/manual/en/function.hash-algos.php
