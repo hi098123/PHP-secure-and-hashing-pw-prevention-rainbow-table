@@ -11,7 +11,7 @@ easy adjust
 
 function SecReq($str, $maxlentgh=200)
 
-	use: SecReq($str);			//id,pw,search
+	use: SecReq($str);		//id,pw,search
 		or SecReq($str,500);	//form
 		or SecReq($str,10000);	//board
 	(ko) 해당 $str 대해 특수 문자를 제거합니다.
