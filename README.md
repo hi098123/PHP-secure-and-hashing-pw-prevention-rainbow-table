@@ -36,3 +36,8 @@ function HashPw($id,$pw)
 		이는 해당 알고리즘이 레인보우테이블이 생겨도 비밀번호 유추를 할수없게 할수 있습니다
 	(en) Salt the id in the hashing and use the password length to reduce the damage of the database leak and the source leak.
 		This makes it impossible for the algorithm to guess the password even if a rainbow table occurs
+
+Before 
+![before-Acunetix](https://github.com/hi098123/PHP-secure/blob/master/normal.png)
+After 
+![after-Acunetix](https://github.com/hi098123/PHP-secure/blob/master/secure.png)
