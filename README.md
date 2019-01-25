@@ -44,6 +44,7 @@ function HashPw($id,$pw)
 
 
 index
+
 ![index.php](https://github.com/hi098123/PHP-secure/blob/master/index.png)
 
 normal
