@@ -36,7 +36,20 @@ and lower than 7.1 you can use sha2 or [https://php.net/manual/en/function.hash-
 		이는 해당 알고리즘이 레인보우테이블이 생겨도 비밀번호 유추를 할수없게 할수 있습니다
 	(en) Salt the id in the hashing and use the password length to reduce the damage of the database leak and the source leak.
 		This makes it impossible for the algorithm to guess the password even if a rainbow table occurs
-
+	
+	if you use different salting, hacker can't know your pw length then they can't guess(rainbow table)
+	
+like this code
+```php
+switch (strlen($pw)){
+	case 6:
+		return hash('sha3-512','Salt'.$pw.'if Pw len is 6'.$id);
+	case 7:
+		return hash('sha3-512','Salt'.$pw.'if Pw len is 7'.$id);
+	default:
+		return hash('sha3-512','Salt'.$pw.'else'.$id);
+}
+```
 
 ### index.php
 ![index](https://github.com/hi098123/PHP-secure/blob/master/index.png)
