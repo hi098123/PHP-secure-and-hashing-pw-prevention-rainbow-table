@@ -39,8 +39,8 @@ and lower than 7.1 you can use sha2 or [https://php.net/manual/en/function.hash-
 		
 	(ko) Hash 적용에 id를 솔트 하고, 비밀번호 길이를 이용하여 디비 유출의 피해, 소스 유출시 피해를 줄입니다.
 		이는 해당 알고리즘이 레인보우테이블이 생겨도 비밀번호 유추를 할수없게 할수 있습니다
-		이는 비밀번호의 길이에따라,아이디에 따라 솔팅이 달라지므로 보편적인 레인보우테이블로 유추할수가 없고,
-		해커는 "한개의 아이디"를 뚫기위해 각각의 비밀번호 길이에 따른 레인보우테이블을 생성해야 합니다.
+		이는 비밀번호의 길이에따라, 아이디에 따라 솔팅이 달라지므로 보편적인 레인보우 테이블로 유추할 수 없고,
+		해커는 "한개의 아이디"를 뚫기 위해 각각의 비밀번호 길이에 따른 레인보우 테이블을 생성해야 합니다.
 		
 		
 	(en) Salt the id in the hashing and use the password length to reduce the damage of the database leak and the source leak.
