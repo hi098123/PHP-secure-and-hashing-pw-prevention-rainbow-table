@@ -56,11 +56,11 @@ switch (strlen($pw)){
 ```
 
 ### index.php
-![index](https://github.com/hi098123/PHP-secure/blob/master/index.png)
+![index](https://raw.githubusercontent.com/hi098123/PHP-secure/master/index.png)
 
 
 ### normal-Acunetix
-![normal-Acunetix](https://github.com/hi098123/PHP-secure/blob/master/normal.png)
+![normal-Acunetix](https://raw.githubusercontent.com/hi098123/PHP-secure/master/normal.png)
 
 ### secure-Acunetix
-![secure-Acunetix](https://github.com/hi098123/PHP-secure/blob/master/secure.png)
+![secure-Acunetix](https://raw.githubusercontent.com/hi098123/PHP-secure/master/secure.png)
