@@ -48,7 +48,7 @@ and lower than 7.1 you can use sha2 or [https://php.net/manual/en/function.hash-
 		
 		if you use different salting, hacker can't know your pw length then they can't guess(rainbow table)
 		and salting id can prevention rainbow table i think
-		The hacker must make a rainbow table(each length of the password) to penetrate only one ID
+		The hacker must make rainbow table(each length of the password) to penetrate only one ID
 	
 like this code
 ```php
