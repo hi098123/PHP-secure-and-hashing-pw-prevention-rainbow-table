@@ -16,7 +16,7 @@
 		
 	(ko) 해당 $str 대해 특수 문자를 제거합니다.
 	
-	(en) certain $str del special char
+	(en) certain $str replace special char
 
 ### function DelSpecialChar($Maxrequest=10)
 	use: DelSpecialChar(); or DelSpecialChar(20);
@@ -25,7 +25,7 @@
 		받아야 되는 정보가 많으면, $Maxrequest를 올려줘야하고 DelSpecialChar(20);
 		굳이 안해도 되는정보에 특수문자가 섞일수 있지만 간편하게 모든문자에 적용됩니다.
 		
-	(en) All about $_REQUEST del special char
+	(en) All about $_REQUEST replace special char
 		If you have a lot of information to get, you need to raise $ Maxrequest and use like DelSpecialChar(20);
 		Special characters can be mixed in the information you do not need, but they are easily applied to all responses.
 
