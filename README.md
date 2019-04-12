@@ -5,11 +5,13 @@
 
 
 ## easy filter xss,sql-injection : DelSpecialChar();
+	//return nothing, just delete special char $_REQUEST 
 	include './secure.php';
-	DelSpecialChar();
+	DelSpecialChar(); // default delete special char count is 10 = DelSpecialChar(10);
 
 
 ### function SecReq($str, $maxlentgh=200)
+	//return string
 	use: SecReq($str);		//use id,pw,search
 		or SecReq($str,500);	//use form
 		or SecReq($str,10000);	//use board
