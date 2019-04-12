@@ -5,16 +5,18 @@
 
 
 ## easy filter xss,sql-injection : DelSpecialChar();
-	//return nothing, just delete special char $_REQUEST 
 	include './secure.php';
-	DelSpecialChar(); // default delete special char count is 10 = DelSpecialChar(10);
+	DelSpecialChar();
+	// default delete special char count is 10 = DelSpecialChar(10);
+return nothing, just delete special char $_REQUEST 
 
 
 ### function SecReq($str, $maxlentgh=200)
-	//return string
 	use: SecReq($str);		//use id,pw,search
 		or SecReq($str,500);	//use form
 		or SecReq($str,10000);	//use board
+	* SecReq() return string
+	$id = SecReq($str);
 		
 	(ko) 해당 $str 대해 특수 문자를 제거합니다.
 	
