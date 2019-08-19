@@ -40,7 +40,7 @@
 		<hr>
 		<p>here:
 			<?php 
-				if($_SESSION['tokn1']==$_REQUEST['tokn1'])
+				if($_SESSION['tokn1']==$_REQUEST['tokn'])
 					if(isset($_REQUEST['text']))
 						echo $_REQUEST['text'];
 
